@@ -129,13 +129,13 @@ input {
 </head>
 <body>
 	<div class="content">
-		<a href="index.jsp">
+		<a href="index.shs">
 			<div class="shs_title">
 				JAVA 기반 스마트하이브리드<br> 개발자과정 2기
 			</div>
 		</a>
-		<div class="shs_manager">-학사등록-</div>
-		<form action="SHSInsert" id="frm_insert" name="frm_insert" method="POST">
+		<div class="insertPlay.shs">-학사등록-</div>
+		<form action="insertPlay.shs" id="frm_insert" name="frm_insert" method="POST">
 			<div class="in_content">
 
 				<div class="div_input">
@@ -163,7 +163,7 @@ input {
 				</div>
 			</div>
 			<div class="div_index btn_wrap">
-				<a href="index" class="btn_index btn3">취소</a>
+				<a href="index.shs" class="btn_index btn3">취소</a>
 				<a href="#" class="btn_index btn1 submit_btn">등록</a>
 			</div>
 		</form>
