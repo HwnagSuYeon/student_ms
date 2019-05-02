@@ -14,6 +14,8 @@ import com.shs.action.ActionForward;
 import com.shs.action.IndexAction;
 import com.shs.action.InsertAction;
 import com.shs.action.InsertPlayAction;
+import com.shs.action.SearchAction;
+import com.shs.action.SearchPlayAction;
 import com.shs.action.WelcomeAction;
 
 /**
@@ -76,7 +78,18 @@ public class FrontController extends HttpServlet {
 			// ***Play => 실제로 동작하는 화면을 출력하는 것
 			// 여기서는 실제 데이터를 입력하는 동작을 담당하는 화면을 출력하는 것이다.
 			forward = action.execute(request, response);
-		}
+		} else if(command.equals("/search.shs")) {
+			action = new SearchAction();
+			// ***Play => 실제로 동작하는 화면을 출력하는 것
+			// 여기서는 실제 데이터를 입력하는 동작을 담당하는 화면을 출력하는 것이다.
+			forward = action.execute(request, response);
+		} else if(command.equals("/searchPlay.shs")) {
+			action = new SearchPlayAction();
+			// ***Play => 실제로 동작하는 화면을 출력하는 것
+			// 여기서는 실제 데이터를 입력하는 동작을 담당하는 화면을 출력하는 것이다.
+			forward = action.execute(request, response);
+		} 
+		
 		
 		
 		// -------공통분기작업--------
