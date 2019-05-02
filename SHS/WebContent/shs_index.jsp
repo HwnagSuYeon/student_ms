@@ -5,24 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>학사관리프로그램</title>
+<link rel="stylesheet" href="css/common.css">
 <style type="text/css">
-@import
-	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400')
-	;
-
-* {
-	font-family: 'Noto Sans KR', sans-serif;
-}
-
-body, ul {
-	/*height: 100vh;
-			display: flex;
-			align-items: center;
-			justify-content: center;*/
-	margin: 0;
-	padding: 0;
-}
-
 a {
 	color: inherit;
 	text-decoration: none;
@@ -44,12 +28,6 @@ ul {
 	border-radius: 5px;
 }
 
-.shs_title {
-	padding-top: 50px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-}
 
 .shs_manager {
 	padding-top: 20px;
@@ -97,11 +75,7 @@ ul {
 </head>
 <body>
 	<div class="content">
-		<a href="index.shs">
-			<div class="shs_title">
-				JAVA 기반 스마트하이브리드<br> 개발자과정 2기
-			</div>
-		</a>
+		<%@ include file="include/header.jsp" %>
 		<div class="shs_manager">-학사관리-</div>
 
 		<div class="container">

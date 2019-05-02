@@ -9,23 +9,12 @@
 <head>
 <meta charset="UTF-8">
 <title>학생부</title>
+<link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
 	crossorigin="anonymous">
 <style type="text/css">
-@import
-	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400')
-	;
-
-* {
-	font-family: 'Noto Sans KR', sans-serif;
-}
-
-body, ul {
-	margin: 0;
-	padding: 0;
-}
 
 a {
 	color: inherit;

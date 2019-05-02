@@ -5,20 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>학생등록</title>
+<link rel="stylesheet" href="css/common.css">
 <style type="text/css">
-@import
-	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400')
-	;
-
-* {
-	font-family: 'Noto Sans KR', sans-serif;
-}
-
-body, ul {
-	margin: 0;
-	padding: 0;
-}
-
 a {
 	color: inherit;
 	text-decoration: none;
@@ -134,7 +122,7 @@ input {
 				JAVA 기반 스마트하이브리드<br> 개발자과정 2기
 			</div>
 		</a>
-		<div class="insertPlay.shs">-학사등록-</div>
+		<div class="div_index">-학사등록-</div>
 		<form action="insertPlay.shs" id="frm_insert" name="frm_insert" method="POST">
 			<div class="in_content">
 

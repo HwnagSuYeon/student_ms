@@ -11,20 +11,8 @@
 <head>
 <meta charset="UTF-8">
 <title>학생정보 수정</title>
+<link rel="stylesheet" href="css/common.css">
 <style type="text/css">
-@import
-	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400')
-	;
-
-* {
-	font-family: 'Noto Sans KR', sans-serif;
-}
-
-body, ul {
-	margin: 0;
-	padding: 0;
-}
-
 a {
 	color: inherit;
 	text-decoration: none;
